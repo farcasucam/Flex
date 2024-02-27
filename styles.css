@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border: 1px solid red;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 2px;
+}
+
+#contenido :nth-child(1) {
+    width: 25%;
+}
+
+#contenido :nth-child(2) {
+    width: 75%;
+}
+
+
+#pie>div {
+    width: 34%;
+}
